@@ -1,5 +1,95 @@
 # 🧰 Larenea Toolkit
 
+
+## 🇺🇸 EN
+
+**Larenea Toolkit** is a Blender add-on package consisting of small but
+powerful tools designed to speed up production workflows.
+
+The add-on is accessible from Blender's N Panel and focuses on character
+creation, retopology, scene management, and grid-based systems.
+
+------------------------------------------------------------------------
+
+### 🧩 Mesh Data Transfer
+
+Allows transferring mesh data from a selected source object to a target
+object using specific methods.
+
+Primary use cases: - Copying UV data from high-poly meshes (especially
+Marvelous Designer outputs) to create low-poly versions - Speeding up
+retopology workflows - Transferring data for non-organic models and
+animation assets
+
+Additional Feature: - Generates selected vertex UV layout as a new mesh
+in 3D space. - Enables physical editing of UV layouts directly in 3D. -
+Makes retopology and UV correction more intuitive.
+
+------------------------------------------------------------------------
+
+### 🎭 Blendshape Randomizer
+
+Randomizes blendshape (Shape Key) values of the selected mesh.
+
+Features: - Prefix-based shapekey filtering - Minimum and maximum value
+range definition - Random generation for all shapekeys matching the
+given prefix
+
+Developed for character creation demos, particularly for generating
+random facial structures and testing ethnic variations.
+
+------------------------------------------------------------------------
+
+### 🧱 Grid Generator
+
+Generates a grid based on the selected object:
+
+-   Custom row and column count
+-   Defined scale value
+
+Created for grid-based map systems. Objects are automatically and
+systematically named.
+
+------------------------------------------------------------------------
+
+### 🏷 Mesh Name Sync
+
+Synchronizes mesh data names with object names.
+
+When an object name changes: - The corresponding mesh data name updates
+automatically.
+
+Designed to maintain clean and organized project structures.
+
+------------------------------------------------------------------------
+
+### 🎥 Main Camera Switcher
+
+Lists all cameras in the scene and allows quick switching between them.
+
+Features: - Direct selection from list - Ctrl + Shift + Right / Left
+arrow navigation - Automatically sets selected camera as active
+
+Used especially for vehicle cinematics and multi-camera animation
+setups.
+
+------------------------------------------------------------------------
+
+### 🧷 Vertex Group Batch Rename
+
+Allows batch renaming of vertex groups.
+
+Features: - Replace only matching segments - Replace entire names -
+Pattern-based renaming
+
+Particularly useful for quickly modifying Mixamo-generated vertex groups
+and adapting them to custom rig systems.
+
+------------------------------------------------------------------------
+
+Larenea Toolkit is a production-oriented Blender utility collection
+built to eliminate repetitive tasks and accelerate workflow efficiency.
+
 ## 🇹🇷 TÜRKÇE
 
 **Larenea Toolkit**, Blender için geliştirilmiş, üretim sürecini
@@ -95,92 +185,3 @@ gruplarını hızlıca düzenlemek ve kendi rig sistemine uyarlamak için
 geliştirilmiştir.
 
 ------------------------------------------------------------------------
-
-## 🇺🇸 EN
-
-**Larenea Toolkit** is a Blender add-on package consisting of small but
-powerful tools designed to speed up production workflows.
-
-The add-on is accessible from Blender's N Panel and focuses on character
-creation, retopology, scene management, and grid-based systems.
-
-------------------------------------------------------------------------
-
-### 🧩 Mesh Data Transfer
-
-Allows transferring mesh data from a selected source object to a target
-object using specific methods.
-
-Primary use cases: - Copying UV data from high-poly meshes (especially
-Marvelous Designer outputs) to create low-poly versions - Speeding up
-retopology workflows - Transferring data for non-organic models and
-animation assets
-
-Additional Feature: - Generates selected vertex UV layout as a new mesh
-in 3D space. - Enables physical editing of UV layouts directly in 3D. -
-Makes retopology and UV correction more intuitive.
-
-------------------------------------------------------------------------
-
-### 🎭 Blendshape Randomizer
-
-Randomizes blendshape (Shape Key) values of the selected mesh.
-
-Features: - Prefix-based shapekey filtering - Minimum and maximum value
-range definition - Random generation for all shapekeys matching the
-given prefix
-
-Developed for character creation demos, particularly for generating
-random facial structures and testing ethnic variations.
-
-------------------------------------------------------------------------
-
-### 🧱 Grid Generator
-
-Generates a grid based on the selected object:
-
--   Custom row and column count
--   Defined scale value
-
-Created for grid-based map systems. Objects are automatically and
-systematically named.
-
-------------------------------------------------------------------------
-
-### 🏷 Mesh Name Sync
-
-Synchronizes mesh data names with object names.
-
-When an object name changes: - The corresponding mesh data name updates
-automatically.
-
-Designed to maintain clean and organized project structures.
-
-------------------------------------------------------------------------
-
-### 🎥 Main Camera Switcher
-
-Lists all cameras in the scene and allows quick switching between them.
-
-Features: - Direct selection from list - Ctrl + Shift + Right / Left
-arrow navigation - Automatically sets selected camera as active
-
-Used especially for vehicle cinematics and multi-camera animation
-setups.
-
-------------------------------------------------------------------------
-
-### 🧷 Vertex Group Batch Rename
-
-Allows batch renaming of vertex groups.
-
-Features: - Replace only matching segments - Replace entire names -
-Pattern-based renaming
-
-Particularly useful for quickly modifying Mixamo-generated vertex groups
-and adapting them to custom rig systems.
-
-------------------------------------------------------------------------
-
-Larenea Toolkit is a production-oriented Blender utility collection
-built to eliminate repetitive tasks and accelerate workflow efficiency.
